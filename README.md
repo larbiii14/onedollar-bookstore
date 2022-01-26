@@ -1,2 +1,0 @@
-# onedollar-bookstore
-A BookStore 
