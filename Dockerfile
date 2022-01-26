@@ -21,3 +21,7 @@ ENV PATH "$PATH:/home/user/flutter/bin"
 RUN flutter channel dev
 RUN flutter upgrade
 RUN flutter doctor
+
+#GIT Config
+RUN git clone https://github.com/larbiii14/onedollar-bookstore.git
+RUN cd onedollar-bookstore && flutter test
